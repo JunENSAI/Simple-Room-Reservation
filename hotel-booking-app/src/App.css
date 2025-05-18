@@ -1,0 +1,270 @@
+#root {
+  max-width: 2000px; /* Limite la largeur maximale du contenu principal */
+  margin: 0 auto;    /* Centre le bloc #root horizontalement dans la page si sa largeur est inférieure à celle de la fenêtre */
+  padding: 2rem;     /* Ajoute de l'espace intérieur */
+  text-align: center;/* Centre le texte et les éléments inline-block à l'intérieur de #root */
+}
+
+.container {
+  max-width: 2400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header & Navigation */
+.app-header {
+  background-color: #0077b6; /* Bleu hôtelier */
+  padding: 15px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.app-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.app-header nav ul li {
+  margin-left: 20px;
+}
+
+.app-header nav ul li a,
+.app-header nav ul li button {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.app-header nav ul li a:hover,
+.app-header nav ul li button:hover {
+  background-color: #005a8d; /* Bleu plus foncé au survol */
+}
+
+.app-header nav ul li a.active {
+  background-color: #023e8a; /* Bleu encore plus foncé pour l'onglet actif */
+  font-weight: bold;
+}
+
+
+/* Page de connexion */
+
+.login-page { /* Ce conteneur spécifique à la page de login */
+  display: flex; /* Active Flexbox */
+  flex-direction: column; /* Aligne les enfants verticalement (h1, p, login-form) */
+  align-items: center; /* Centre les enfants horizontalement */
+  justify-content: center; /* Centre les enfants verticalement (si la hauteur le permet) */
+  min-height: 70vh; /* Donne une hauteur minimale pour permettre le centrage vertical */
+  text-align: center; /* Centre le texte à l'intérieur des enfants (comme h1, p) */
+}
+
+.login-form { /* Le formulaire lui-même */
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%; /* Prend toute la largeur disponible de son parent (qui est centré par align-items) */
+  max-width: 400px; /* Mais ne dépasse pas 400px */
+  /* margin: 20px 0;  Optionnel: pour ajouter de l'espace vertical autour du formulaire si besoin */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Les labels et inputs dans le formulaire sont alignés à gauche */
+}
+
+
+.login-form h2 {
+  color: #0077b6;
+  margin-bottom: 25px;
+}
+
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: calc(100% - 20px); /* Ajuste pour le padding interne */
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.login-button, .submit-button {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.login-button:hover, .submit-button:hover {
+  background-color: #005a8d;
+}
+
+/* Cartes d'hôtel */
+.hotel-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hotel-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-card-content {
+  padding: 15px;
+  flex-grow: 1; /* Permet au contenu de prendre l'espace restant */
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-card-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+
+.hotel-card-content p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.hotel-card-content .price {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1em;
+  margin-top: auto; /* Pousse le prix en bas de la carte */
+}
+
+.hotel-card-content .avis-list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 0.85em;
+  max-height: 60px; /* Limite la hauteur des avis */
+  overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+  margin-bottom: 10px;
+}
+
+.star-rating .star {
+  color: #ffd700; /* Jaune doré pour les étoiles */
+  font-size: 1.2em;
+}
+.star-rating .star.empty {
+  color: #ccc; /* Gris pour les étoiles vides */
+}
+
+
+/* Page À propos et Réclamation */
+.page-content {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.page-content h2 {
+  color: #0077b6;
+  margin-top: 0;
+}
+
+.complaint-form textarea {
+  width: calc(100% - 22px); /* Ajuste pour le padding interne et la bordure */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 100px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Styles pour la pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px; /* Espace au-dessus de la pagination */
+  margin-bottom: 20px;
+}
+
+.page-item {
+  margin: 0 5px; /* Espace entre les boutons de page */
+}
+
+.page-item .page-link {
+  color: #0077b6; /* Couleur de base du texte (bleu hôtelier) */
+  background-color: white;
+  border: 1px solid #dee2e6; /* Bordure grise légère */
+  padding: 8px 12px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  font-size: 1em;
+}
+
+/* Style au survol */
+.page-item .page-link:hover {
+  background-color: #e9ecef; /* Fond gris clair au survol */
+  border-color: #adb5bd;
+  color: #005a8d; /* Texte bleu plus foncé */
+}
+
+/* Style pour la page active */
+.page-item.active .page-link {
+  background-color: #0077b6; /* Fond bleu hôtelier */
+  color: white; /* Texte blanc */
+  border-color: #0077b6; /* Bordure de la même couleur que le fond */
+  font-weight: bold;
+}
+
+/* Style pour le lien de la page active au survol (pas de changement majeur) */
+.page-item.active .page-link:hover {
+  background-color: #005a8d; /* Bleu plus foncé au survol pour la page active */
+  border-color: #005a8d;
+}

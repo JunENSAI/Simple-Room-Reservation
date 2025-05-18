@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "nom": "Royal Champagne Hotel & Spa",
+    "lieu": "Avenay Val d'Or, France",
+    "avis": [
+      "Superbe séjour, personnel accueillant !",
+      "Chambre propre et confortable."
+    ],
+    "url_image": "https://royalchampagne.com/_novaimg/4947432-1510637_1949_0_2851_3195_615_690.jpg?text=Royal+Champagne+Hotel+%26+Spa",
+    "note": 4.6,
+    "prix_par_nuit": 150
+  },
+  {
+    "id": 2,
+    "nom": "Hôtel de Crillon",
+    "lieu": "Paris, France",
+    "avis": [
+      "Service impeccable et luxe absolu.",
+      "Emplacement idéal pour découvrir Paris."
+    ],
+    "url_image": "https://images.rosewoodhotels.com/is/image/rwhg/htel-de-crillon-deluxe-room-bedroom-by-reto-guntli",
+    "note": 4.8,
+    "prix_par_nuit": 700
+  },
+  {
+    "id": 3,
+    "nom": "Le Meurice",
+    "lieu": "Paris, France",
+    "avis": [
+      "Hôtel élégant avec une cuisine exceptionnelle.",
+      "Vue imprenable sur le jardin des Tuileries."
+    ],
+    "url_image": "https://pariscapitale.com/wp-content/uploads/2023/09/hotel-le-meurice-paris-deluxe-room.jpg?text=Le+Meurice",
+    "note": 4.7,
+    "prix_par_nuit": 650
+  },
+  {
+    "id": 4,
+    "nom": "Hotel Negresco",
+    "lieu": "Nice, France",
+    "avis": [
+      "Décoration unique et historique.",
+      "Très bien situé sur la promenade des Anglais."
+    ],
+    "url_image": "https://www.hotel-negresco-nice.com/sites/default/files/styles/766x510/public/2018-04/LeNegresco_Hotel.jpg?h=6ba5855b&itok=9dMyKy6w?text=Hotel+Negresco",
+    "note": 4.5,
+    "prix_par_nuit": 400
+  },
+  {
+    "id": 5,
+    "nom": "Château de Bagnols",
+    "lieu": "Bagnols, France",
+    "avis": [
+      "Expérience authentique dans un château.",
+      "Cadre magnifique et paisible."
+    ],
+    "url_image": "https://www.chateaudebagnols.com/content/assets/images/og_image.jpg?v=bfda979eccfb39fc556334a92559d420?text=Chateau+de+Bagnols",
+    "note": 4.6,
+    "prix_par_nuit": 320
+  },
+  {
+    "id": 6,
+    "nom": "Les Sources de Caudalie",
+    "lieu": "Martillac, France",
+    "avis": [
+      "Spa relaxant et cadre verdoyant.",
+      "Cuisine raffinée et vins excellents."
+    ],
+    "url_image": "https://www.sources-hotels.com/bordeaux/wp-content/uploads/sites/3/2024/12/LEE7D3_1-2880x1800.jpg?text=Les+Sources+de+Caudalie",
+    "note": 4.7,
+    "prix_par_nuit": 280
+  },
+  {
+    "id": 7,
+    "nom": "Hotel du Cap-Eden-Roc",
+    "lieu": "Antibes, France",
+    "avis": [
+      "Vue spectaculaire sur la mer.",
+      "Service attentionné et personnalisé."
+    ],
+    "url_image": "https://medias.tourism-system.com/7/0/702300_2020_hdcer-restaurant_erjms4.jpg?text=Hotel+du+Cap-Eden-Roc",
+    "note": 4.9,
+    "prix_par_nuit": 950
+  },
+  {
+    "id": 8,
+    "nom": "La Bastide de Gordes",
+    "lieu": "Gordes, France",
+    "avis": [
+      "Charme provençal et vue panoramique.",
+      "Personnel accueillant et attentionné."
+    ],
+    "url_image": "https://www.thehotelguru.com/_images/e4/15/e4157f16034f69a1053495e5cbafe421/s1654x900.jpg?text=La+Bastide+de+Gordes",
+    "note": 4.8,
+    "prix_par_nuit": 450
+  },
+  {
+    "id": 9,
+    "nom": "Hôtel Barrière Le Majestic",
+    "lieu": "Cannes, France",
+    "avis": [
+      "Parfait pour un séjour de luxe à Cannes.",
+      "Piscine et plage privées très agréables."
+    ],
+    "url_image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/418415115.jpg?k=f695e1163d51e44ba7db627db6bc2b14bffaf1c8cb2e98d0e76c5acdac1cf26c&o=&hp=1?text=Hotel+Barriere+Le+Majestic",
+    "note": 4.6,
+    "prix_par_nuit": 500
+  },
+  {
+    "id": 10,
+    "nom": "Le Grand Hôtel",
+    "lieu": "Cannes, France",
+    "avis": [
+      "Ambiance chic et service de qualité.",
+      "Vue sur la Croisette époustouflante."
+    ],
+    "url_image": "https://images2.bovpg.net/r/media/1/1/4/4/5/144585.jpg?text=Le+Grand+Hotel",
+    "note": 4.5,
+    "prix_par_nuit": 350
+  },
+  {
+    "id": 11,
+    "nom": "Hôtel Plaza Athénée",
+    "lieu": "Paris, France",
+    "avis": [
+      "Le summum de l'élégance parisienne.",
+      "Suites spacieuses et confortables."
+    ],
+    "url_image": "https://assets.hotelaparis.com/uploads/pictures/000/053/838/156846511.jpg?text=Hotel+Plaza+Athenée",
+    "note": 4.9,
+    "prix_par_nuit": 850
+  },
+  {
+    "id": 12,
+    "nom": "Le Royal Monceau",
+    "lieu": "Paris, France",
+    "avis": [
+      "Design artistique et moderne.",
+      "Petit déjeuner fabuleux et varié."
+    ],
+    "url_image": "https://www.ahstatic.com/photos/a5d5_rokgc_00_p_1024x768.jpg?text=Le+Royal+Monceau",
+    "note": 4.7,
+    "prix_par_nuit": 700
+  },
+  {
+    "id": 13,
+    "nom": "Hôtel Le Bristol",
+    "lieu": "Paris, France",
+    "avis": [
+      "Palace parisien par excellence.",
+      "Jardin privé magnifique et paisible."
+    ],
+    "url_image": "https://www.oetkercollection.com/media/50589/le-bristol-paris-dlxg-134-hd-2.jpg?width=680&height=460&quality=85&v=1db03dd8b764000?text=Hotel+Le+Bristol",
+    "note": 4.8,
+    "prix_par_nuit": 750
+  },
+  {
+    "id": 14,
+    "nom": "Les Airelles",
+    "lieu": "Courchevel, France",
+    "avis": [
+      "Paradis alpin avec services haut de gamme.",
+      "Idéal pour les amateurs de ski et de luxe."
+    ],
+    "url_image": "https://images.prismic.io/airelles2023/ZkI_xUFLKBtrW09o_JuniorSuitePrestigeVall%C3%A9e-Chambre.jpg?auto=format,compress?text=Les+Airelles",
+    "note": 4.9,
+    "prix_par_nuit": 1200
+  },
+  {
+    "id": 15,
+    "nom": "Cheval Blanc St-Tropez",
+    "lieu": "Saint-Tropez, France",
+    "avis": [
+      "Évasion parfaite sur la Côte d'Azur.",
+      "Service irréprochable et attentif."
+    ],
+    "url_image": "https://www.wilmotte.com/wp-content/uploads/2023/02/2.1-La-R%C2%AEsidence-de-la-Pin%C2%BFde-Duplex-Sea-Suite-Bedroom_-V-Mati_0422-scaled.jpg?text=Cheval+Blanc+St-Tropez",
+    "note": 4.9,
+    "prix_par_nuit": 1100
+  }
+
+]
